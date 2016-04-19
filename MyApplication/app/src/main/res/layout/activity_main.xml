@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="45"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/cours"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Cours"
+            />
+        <Button
+            android:id="@+id/exercice"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Exercice"
+            />
+        <Button
+            android:id="@+id/favories"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Favories"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="50"
+        android:layout_height="0dip"
+        android:weightSum="100"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="47"
+            android:layout_height="0dip"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            >
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_weight="30"
+            android:layout_height="match_parent"
+            android:background="@drawable/android"
+            />
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="5"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_weight="30"
+                android:layout_height="match_parent"
+                android:background="@drawable/angular"
+                />
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="5"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_weight="30"
+                android:layout_height="match_parent"
+                android:background="@drawable/mysql"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="7"
+            android:layout_height="0dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="47"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            >
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_weight="30"
+                android:layout_height="match_parent"
+                android:background="@drawable/angular"
+                />
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="5"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_weight="30"
+                android:layout_height="match_parent"
+                android:background="@drawable/mysql"
+                />
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="5"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_weight="30"
+                android:layout_height="match_parent"
+                android:background="@drawable/android"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
